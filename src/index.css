@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/ccs2?family=Raleway:wght@300:400:500:600:700:800:900&display=swap");
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+@layer base {
+    li {
+        @apply py-6 text-2xl;
+        @apply hover:text-[greenyellow]
+    }
+}
+
+.content-div {
+    /* background-Image: url( "../assets/validation.jpg") */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+ .icon-position {
+    position: fixed;
+    
+} 
