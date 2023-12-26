@@ -37,18 +37,19 @@ const Sources = () => {
               style={{
                 backgroundImage: `url(${Redux})`,
               }}
-              className="shadow-lg shadow-[#486b9e] group container rounded-md flex justify-center items-center mx-auto content-div"
+              className="shadow-lg shadow-[#486b9e] group container rounded-md flex justify-center items-center mx-auto content-div mb-2"
             >
               <span className="font-bold text-2xl text-green-300 text-center">
                 React/Redux Application
-                <div className="text-2xl text-center ">
-                  <button className="text-center rounded-lg px-2 py-0 m-2 bg-red-300 text-gray-800 font-bold text-lg hover:bg-lime-200  sm:flex text-[#8891b0] text-2xl">
+                <div className="text-2xl text-center">
+                   <button className="text-center rounded-lg px-2 py-0 m-2 bg-red-300 text-gray-800 font-bold text-lg hover:bg-lime-200">
                     <a href="https://github.com/seyismart/reduxAsync-thunk">
                       Code
                     </a>
                   </button>
-                  <button className="text-center rounded-lg px-2 py-0 m-2 bg-yellow-200 text-gray-800 font-bold text-lg hover:bg-lime-200">
-                    <a href="https://redux-async-thunk.vercel.app"> Demo</a>
+                  <button className="text-center rounded-lg px-2 mt-2 bg-yellow-200 text-gray-800 font-bold text-lg hover:bg-lime-200 ml-2">
+                  
+                    <a href="https://redux-async-thunk.vercel.app">Demo</a>
                   </button>
                 </div>
               </span>

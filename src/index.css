@@ -29,7 +29,6 @@
     height: 250px;
 }
 
- .icon-position {
-    position: fixed;
-    
-} 
+.moveUP{
+    width: 30px;
+}
